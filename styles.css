@@ -563,11 +563,11 @@ aside .asideLink {
         grid-template-areas:
         "navbar navbar"
         "header header"
-        "section section"
         "aside aside"
+        "section section"
         "footer footer";
         grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: 2fr, 2fr, 3fr, 3fr, 1fr
+        grid-template-rows: repeat(5, 1fr);
         /* grid-column-gap: 10% */
     }
     aside {
@@ -575,7 +575,7 @@ aside .asideLink {
     }
 
     .cabeceraNoticias {
-        width: 1060px;
+        width: 900px;
         height: 200px;
 
     }
@@ -585,7 +585,6 @@ aside .asideLink {
     }
 
     .cabeceraNoticias__parrafo--1 {
-        margin-top: 5%;
         padding: 0px;
         margin-left: 100%;
 
@@ -593,10 +592,13 @@ aside .asideLink {
 
     .footer {
         flex-direction: column;
+        width: 900px;
     }
 
     .navbarNoticias {
         flex-direction: column;
+        width: 1000px;
+        height: 200px;
     }
 
     .gridServicios{
