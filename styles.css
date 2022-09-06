@@ -1,0 +1,752 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: rgb(154, 140, 152);
+}
+
+.gridIndex {
+    display: grid;
+    grid-template-areas: 
+    "cabecera cabecera cabecera"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns: repeat(3, 2fr); 
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* inicio pag index  */
+.titulo {
+    display: flex;
+    justify-content: end;
+    font-family: Aboreto-regular;
+    font-size: 50px;
+}
+.cabeceraIndex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(201, 173, 167);
+    border-radius: 10px;
+    padding: 0%;
+    grid-area: cabecera;
+    
+}
+
+.cabecera__menu {
+    display: flex;
+    list-style: none;
+    background-color: rgb(154, 140, 152);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Aboreto-regular;
+    font-size: 25px;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.cabecera__menu li .cabecera__menu--rosa {
+    color: rgb(34, 34, 59);
+    text-decoration: none;
+}   
+
+
+.logoPag {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.inicioDatos {
+    font-size: 15px;
+    font-family: Aboreto-regular;
+    text-align: center;
+    display: block;
+}
+
+
+main {
+    width: 100%;
+    height: 600px;
+    background-image: url(./imagenes/court-hammer-and-books-judgment-and-law-concept.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(34, 34, 59) ;
+}
+
+
+main h1 {
+    width: 60%;
+    color: rgb(34, 34, 59);
+    text-align: end;
+    font-size: 70px;
+    line-height: 70px;
+    padding: 10px;
+}
+main p {
+    font-family: Aboreto-regular;
+    font-size: 25px;
+    text-align: end;
+    width: 60%;
+    line-height: 50px;
+    padding: 10px;
+}
+    
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Aboreto-regular ;
+    
+   
+}
+
+/* fin index.html */
+
+/* inicio pag servicios */
+
+.gridServicios{
+    display: grid;
+    grid-template-areas: 
+    "cabecera cabecera cabecera cabecera"
+    "titulo titulo section section"
+    "titulo titulo section section"
+    "titulo titulo section section"
+    "footer footer footer footer";
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+}
+
+.cabeceraServicios {
+    grid-area: cabecera;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(201, 173, 167);
+    border-radius: 10px;
+    padding: 0%;
+}
+
+.footerServicios {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40%;
+    flex-wrap: wrap;
+    font-family: Aboreto-regular;
+    font-size: 15px;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color:rgb(201, 173, 167) ;
+    grid-area: footer;
+
+}
+
+
+.cabecera__titulo__servicios {
+    font-family: Aboreto-regular;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(7, 7, 17);
+    background-image: url(./imagenes/top-view-over-career-guidance-items-for-judges.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 1200px;
+    grid-area: titulo;
+}
+
+.areasLegales {
+    width: 100%;
+    margin: 100xp, 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    grid-area: section;
+    grid-row-gap: 5px
+}
+
+.areasLegales__areas {
+    width: 500px;
+}
+
+.areasLegales__areas img {
+    width: 100px;
+    height: 100px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 20px;
+
+}
+
+.areasLegales__areas p {
+    text-align: center;
+    font-family: Aboreto-regular;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.areasLegales__areas--titulo {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(34, 34, 59);
+    background-color: rgb(201, 173, 167);
+    border-radius: 05px;
+    padding: 05px;
+}
+
+/* fin pag servicios */
+
+/* inicio pag equipo  */
+
+.grillaEquipo {
+    display: grid;
+    grid-template-areas: 
+    "cabecera cabecera cabecera cabecera"
+    "titulo titulo titulo titulo"
+    "aside aside main main"
+    "footer footer footer footer";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+}
+.cabeceraEquipo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(201, 173, 167);
+    border-radius: 10px;
+    padding: 0%;
+    grid-area: cabecera;
+    width: 1340px;
+    height: 300px;
+}
+
+.cabecera__titulo__equipo {
+    font-family: Aboreto-regular;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(241, 241, 248);
+    background-image: url(./imagenes/imagen\ equipo\ pag.jpg);
+    background-size: cover;
+    width: 1340px;
+    height: 200px;
+    grid-area: titulo;
+    margin-top: 0%;
+    border: solid;
+    border-color:rgb(201, 173, 167);
+}   
+
+.seccionEquipo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.seccionEquipo__img {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: aside;
+}
+
+.seccionEquipo__img img {
+    width: 150%;
+    height: 100%;
+    align-items: center;
+}
+
+.seccionEquipo__contenido {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 900px;
+    margin-top: 1%;
+    grid-area: main;
+    margin-left: 20%;
+}
+
+.seccionEquipo__contenido p {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 150%;
+    margin: 5%;
+    text-align: center;
+    background-color: rgb(201, 173, 167) ;
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 10px;
+    margin-top: 05px;
+}
+
+.seccionEquipo__contenido--nombres {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(201, 173, 167);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.footerEquipo{ 
+    display: flex;
+    justify-content: space-around;
+    width: 61%;
+    height: 30%;
+    flex-wrap: wrap;
+    font-family: Aboreto-regular;
+    font-size: 15px;
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color:rgb(201, 173, 167);
+
+}
+
+/* fin pag equipo  */
+
+/* inicio pag contacto  */
+
+
+.grillaContacto{
+    display: grid;
+    grid-template-areas: 
+    "cabecera cabecera cabecera"
+    "titulo titulo titulo"
+    "form form form"
+    "footer footer footer";
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+}
+
+.cabeceraContacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(201, 173, 167);
+    border-radius: 10px;
+    padding: 0%;
+    grid-area: cabecera;
+}
+
+
+.tituloContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(2, 2, 10);
+    font-family: Aboreto-regular;
+    font-size: 50px;
+    background-image: url(./imagenes/imagen\ pag\ contacto.jpg);
+    background-size: 500px;
+    width: 1340px;
+    height: 200px;
+    grid-area: titulo;
+}
+
+.formularioContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    grid-area: form;
+}
+
+.formularioContacto__etiqueta {
+    font-family: Aboreto-regular;
+    font-size: 20px;
+}
+
+.formularioContacto__ingreso {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.formularioContacto__ingreso--consulta {
+    width: 500px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.formularioContacto__enviar {
+    color: rgb(15, 15, 15) ;
+    border-radius: 05px;
+    padding: 10px;
+    font-family: Aboreto-regular;
+    font-size: 20px;
+    background-color: rgb(201, 173, 167);
+    
+}
+
+/* fin pag contacto  */
+
+/* inicio pag noticias */
+
+.gridNoticias {
+    display: grid;
+    grid-template-areas:
+    "navbar navbar navbar navbar"
+    "header header header header"
+    "title title title empty"
+    "section section aside aside"
+    "section section aside aside"
+    "footer footer footer footer";
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
+}
+
+.cabeceraNoticias {
+    font-family: Aboreto-regular;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(241, 241, 248);
+    background-image: url(./imagenes/imagen\ equipo\ pag.jpg);
+    background-size: cover;
+    width: 1345px;
+    height: 200px;
+    grid-area: header;
+}
+
+.navbarNoticias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(201, 173, 167);
+    border-radius: 10px;
+    padding: 0%;
+    grid-area:navbar;
+}
+
+.cabeceraNoticias__titulo {
+   font-family: Aboreto-regular;
+   font-size: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 3%;
+   background-color: rgb(201, 173, 167);
+   width: 50%;
+   justify-content: center;
+   margin-left: 10%;
+   border-radius: 5px;
+   grid-area: title;
+   height: 45%;
+   border: solid;
+   border-color: aliceblue;
+   
+
+}
+
+.cabeceraNoticias__parrafo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    /* border: solid; */
+    grid-area: section;
+    align-items: center;
+    margin: 4%;
+    
+}
+
+aside{
+    grid-area: aside;
+    height: 70%;
+    width: 40%;
+    border: solid;
+    border-color: aliceblue;
+    margin-top: 35%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(201, 173, 167);
+    border-radius: 10px;
+    margin-left: 40%;
+}
+
+aside p{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Aboreto-regular;
+    text-align: center;
+    
+}
+
+aside .asideLink {
+    text-align: center;
+    width: 100%;
+    color: rgb(34, 34, 59);
+    text-decoration: underline;
+}
+
+.cabecera{
+    grid-area: navbar;
+}
+.cabeceraNoticias__parrafo--1 {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    flex-wrap: wrap;
+    margin-top: 05%;
+    font-size: 20px;
+    font-family: Aboreto-regular;
+    text-align: center;
+    background-color:rgb(241, 241, 248) ;
+    padding: 5px;
+    border: solid;
+    border-color: rgb(201, 173, 167);
+}
+
+.cabeceraNoticias__parrafo .cabeceraNoticias__link {
+    text-align: center;
+    width: 100%;
+    color: rgb(34, 34, 59);
+    text-decoration: underline;
+}
+
+
+
+/* fin pag noticias */
+
+/* pie de pag */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40%;
+    flex-wrap: wrap;
+    font-family: Aboreto-regular;
+    font-size: 15px;
+    margin: auto;
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color:rgb(201, 173, 167);
+    
+    
+}
+
+/* MOBILE  */
+@media screen and (max-width: 480px) {
+    .gridNoticias {
+        grid-template-areas:
+        "navbar navbar"
+        "header header"
+        "section section"
+        "aside aside"
+        "footer footer";
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: 2fr, 2fr, 3fr, 3fr, 1fr
+        /* grid-column-gap: 10% */
+    }
+    aside {
+        display: none;
+    }
+
+    .cabeceraNoticias {
+        width: 1060px;
+        height: 200px;
+
+    }
+
+    .cabeceraNoticias__titulo {
+       display: none;
+    }
+
+    .cabeceraNoticias__parrafo--1 {
+        margin-top: 5%;
+        padding: 0px;
+        margin-left: 100%;
+
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .navbarNoticias {
+        flex-direction: column;
+    }
+
+    .gridServicios{
+        grid-template-areas: 
+        "cabecera"
+        "titulo"
+        "section"
+        "footer";
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr, 2fr, 3fr, 1fr
+    }
+
+    .cabecera__titulo__servicios {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cabeceraServicios {
+        flex-direction: column;
+    }
+
+    .grillaEquipo {
+    grid-template-areas: 
+    "cabecera"
+    "titulo"
+    "main"
+    "footer";
+    grid-template-columns: 3fr;
+    grid-template-rows: 2fr, 2fr, 3fr, 1fr;
+    }
+
+    .seccionEquipo__img {
+        display: none;
+    }
+
+    .cabeceraEquipo {
+        flex-direction: column;
+    }
+
+    .cabecera__titulo__equipo {
+        width: 1000px;
+    }
+    .seccionEquipo__contenido {
+        margin-left: 15%;
+    }
+    .seccionEquipo__contenido p {
+        font-size: 20px;
+    }
+
+    .grillaContacto{
+        grid-template-areas: 
+        "cabecera"
+        "titulo"
+        "form"
+        "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr, 2fr, 3fr, 1fr;
+    }
+
+    .cabeceraContacto {
+        flex-direction: column;
+}
+
+    .tituloContacto {
+        width: 1000px;
+    }
+    
+    .gridIndex {
+        grid-template-areas: 
+        "cabecera"
+        "main"
+        "footer";
+        grid-template-columns: 2fr; 
+        grid-template-rows: 2fr, 3fr, 1fr;
+    }
+    .cabeceraIndex {
+        flex-direction: column;
+    }
+    main {
+        width: 500px;
+        height: 600px
+    }
+
+
+
+}
+
+
+/* TABLET  */
+
+@media screen and (max-width: 1024px) {
+    .gridNoticias {
+    grid-template-areas:
+    "navbar navbar"
+    "header header"
+    "title empty"
+    "section aside"
+    "section aside"
+    "footer footer";
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 2fr, 2fr, 2fr, 3fr, 3fr, 1fr;
+    }
+
+    aside{
+    height: 35%;
+    width: 30%;
+    margin-left: 30%;
+    }
+
+    .cabeceraEquipo{
+        display: flex;
+        flex-direction: column;
+    }
+    .grillaContacto{
+        grid-template-areas: 
+        "cabecera cabecera"
+        "titulo titulo"
+        "form form"
+        "footer footer";
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: 2fr, 2fr, 3fr, 1fr;
+    }
+    .cabeceraContacto {
+        flex-direction: column;
+    }
+
+    main {
+        width: 1000px;
+        height: 600px
+    }
+
+    .cabeceraIndex {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+@font-face {
+    font-family:Aboreto-Regular ;
+    src: url("./fonts/Aboreto-Regular.ttf");
+}
