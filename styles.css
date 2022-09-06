@@ -561,13 +561,13 @@ aside .asideLink {
 @media screen and (max-width: 480px) {
     .gridNoticias {
         grid-template-areas:
-        "navbar navbar"
-        "header header"
+        "navbar"
+        "header"
         /* "aside aside" */
-        "section section"
-        "footer footer";
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat 10%, 5%, 5%, 10%, 10%;
+        "section"
+        "footer";
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: 15% 10% 20% 10%;
         /* grid-column-gap: 10% */
     }
     aside {
@@ -577,6 +577,7 @@ aside .asideLink {
     .cabeceraNoticias {
         width: 900px;
         height: 200px;
+        
 
     }
 
@@ -596,12 +597,12 @@ aside .asideLink {
     }
         .footer {
         flex-direction: column;
-        width: 900px;
+        width: 800px;
     }
 
     .navbarNoticias {
         flex-direction: column;
-        width: 1000px;
+        width: 900px;
         height: 200px;
     }
 
