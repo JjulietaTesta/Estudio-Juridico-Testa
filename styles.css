@@ -563,11 +563,11 @@ aside .asideLink {
         grid-template-areas:
         "navbar navbar"
         "header header"
-        "aside aside"
+        /* "aside aside" */
         "section section"
         "footer footer";
         grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat 10%, 5%, 5%, 10%, 10%;
         /* grid-column-gap: 10% */
     }
     aside {
@@ -589,8 +589,12 @@ aside .asideLink {
         margin-left: 100%;
 
     }
-
-    .footer {
+    .cabeceraNoticias__parrafo {
+        justify-content: flex-start;
+        margin: 0%;
+       
+    }
+        .footer {
         flex-direction: column;
         width: 900px;
     }
