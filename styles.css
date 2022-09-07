@@ -396,6 +396,15 @@ main p {
 .formularioContacto__etiqueta {
     font-family: Aboreto-regular;
     font-size: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.formularioContacto__etiqueta:hover{
+    border: solid;
+    border-color: rgb(201, 173, 167);
+    background-color:rgb(124, 59, 115);
+    padding: 15px;
 }
 
 .formularioContacto__ingreso {
@@ -417,8 +426,17 @@ main p {
     font-family: Aboreto-regular;
     font-size: 20px;
     background-color: rgb(201, 173, 167);
+    transition: all 0.5s;
+    cursor: pointer;
     
 }
+
+.formularioContacto__enviar:hover{
+    padding: 15px;
+    background-color:rgb(124, 59, 115);
+    border-color:rgb(201, 173, 167) ;
+}
+
 
 /* fin pag contacto  */
 
@@ -522,15 +540,6 @@ aside .asideLink {
     width: 100%;
     color: rgb(34, 34, 59);
     text-decoration: underline;
-    transition: all 0,5s;
-    cursor: pointer;
-}
-
-.asideLink:hover{
-    background-color:rgb(199, 107, 185);
-    padding: 10px;
-    text-decoration: none;
-    width: 10px;
 }
 
 .cabecera{
