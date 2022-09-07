@@ -70,8 +70,6 @@ footer {
 }
 
 
-
-
 .logoPag {
     display: flex;
     width: 200px;
@@ -320,6 +318,14 @@ main p {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.seccionEquipo__contenido--nombres:hover {
+    background-color:rgb(182, 62, 162) ;
+    padding: 15px;
 
 }
 
