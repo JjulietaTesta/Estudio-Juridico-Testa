@@ -6,14 +6,14 @@ body {
     background-color: rgb(46, 42, 45);
 }
 
+/* inicio pag index  */
+
 .navItem {
     font-size: 30px;
     color: rgb(255, 247, 253);
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-/* inicio pag index  */
 
 .cardContacto {
     width: 400px;
@@ -45,59 +45,11 @@ body {
     
 }
 
-.contacto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Aboreto-regular ;
-    
-   
-}
+
 
 /* fin index.html */
 
 /* inicio pag servicios */
-
-.gridServicios{
-    display: grid;
-    grid-template-areas: 
-    "cabecera cabecera cabecera cabecera"
-    "titulo titulo section section"
-    "titulo titulo section section"
-    "titulo titulo section section"
-    "footer footer footer footer";
-    grid-template-columns: 1fr 2fr 2fr 2fr;
-    grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
-}
-
-.cabeceraServicios {
-    grid-area: cabecera;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(201, 173, 167);
-    border-radius: 10px;
-    padding: 0%;
-}
-
-.footerServicios {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 40%;
-    flex-wrap: wrap;
-    font-family: Aboreto-regular;
-    font-size: 15px;
-    margin: auto;
-    border-radius: 5%;
-    text-align: center;
-    align-items: center;
-    margin-top: 10%;
-    background-color:rgb(201, 173, 167) ;
-    grid-area: footer;
-
-}
-
 
 .cabecera__titulo__servicios {
     font-family: Aboreto-regular;
@@ -105,80 +57,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(7, 7, 17);
+    color: rgb(239, 239, 245);
     background-image: url(./imagenes/top-view-over-career-guidance-items-for-judges.jpg);
     background-size: cover;
-    width: 500px;
-    height: 1200px;
-    grid-area: titulo;
-}
-
-.areasLegales {
-    width: 100%;
-    margin: 100xp, 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    grid-area: section;
-    grid-row-gap: 5px
-}
-
-.areasLegales__areas {
-    width: 500px;
-}
-
-.areasLegales__areas img {
-    width: 100px;
-    height: 100px;
-    margin-left: 160px;
-    margin-right: 160px;
-    padding: 20px;
-
-}
-
-.areasLegales__areas p {
+    height: 150px; 
     text-align: center;
-    font-family: Aboreto-regular;
-    font-size: 15px;
-    margin-top: 10px;
+    border: solid;
+    border-color: rgb(99, 91, 90);
 }
 
-.areasLegales__areas--titulo {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: rgb(34, 34, 59);
-    background-color: rgb(201, 173, 167);
-    border-radius: 05px;
-    padding: 05px;
+.cardServicios { 
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border: solid;
+    border-color: black;
 }
+
+.cardServicios p {
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cardServicios h5 {
+    background-color: black;
+    color: beige;
+}
+
+
+
+
+
+
+
 
 /* fin pag servicios */
 
 /* inicio pag equipo  */
-
-.grillaEquipo {
-    display: grid;
-    grid-template-areas: 
-    "cabecera cabecera cabecera cabecera"
-    "titulo titulo titulo titulo"
-    "aside aside main main"
-    "footer footer footer footer";
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 3fr 1fr;
-}
-.cabeceraEquipo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(201, 173, 167);
-    border-radius: 10px;
-    padding: 0%;
-    grid-area: cabecera;
-    width: 1340px;
-    height: 300px;
-}
 
 .cabecera__titulo__equipo {
     font-family: Aboreto-regular;
@@ -189,12 +104,12 @@ body {
     color: rgb(241, 241, 248);
     background-image: url(./imagenes/imagen\ equipo\ pag.jpg);
     background-size: cover;
-    width: 1340px;
+    width: 1325px;
     height: 200px;
     grid-area: titulo;
     margin-top: 0%;
     border: solid;
-    border-color:rgb(201, 173, 167);
+    border-color:rgb(99, 91, 90);
 }   
 
 .seccionEquipo {
@@ -207,70 +122,36 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    grid-area: aside;
 }
 
 .seccionEquipo__img img {
     width: 150%;
-    height: 100%;
+    height: 150%;
     align-items: center;
 }
 
-.seccionEquipo__contenido {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: 700px;
-    height: 900px;
-    margin-top: 1%;
-    grid-area: main;
-    margin-left: 20%;
+.cardEquipo {
+    width: 420px;
+    height: 220px;
+    background-color: rgb(80, 77, 74);
+    padding: 20px;
+    border-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 60px;
+    
+    
 }
 
-.seccionEquipo__contenido p {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 150%;
-    margin: 5%;
-    text-align: center;
-    background-color: rgb(201, 173, 167) ;
-    border-radius: 10px;
-    padding: 2%;
-    margin-bottom: 10px;
-    margin-top: 05px;
-}
-
-.seccionEquipo__contenido--nombres {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(201, 173, 167);
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    transition: all 0.5s;
-    cursor: pointer;
-
-}
-
-.seccionEquipo__contenido--nombres:hover {
-    background-color:rgb(182, 62, 162) ;
-    padding: 15px;
-}
-
-.footerEquipo{ 
-    display: flex;
-    justify-content: space-around;
-    width: 61%;
-    height: 30%;
-    flex-wrap: wrap;
-    font-family: Aboreto-regular;
+.cardEquipo p {
     font-size: 15px;
-    border-radius: 5%;
-    text-align: center;
-    align-items: center;
-    margin-top: 10%;
-    background-color:rgb(201, 173, 167);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
 
+.cardEquipo h5 {
+    font-size: 25px;
+    background-color: rgb(61, 60, 56);
+    color: rgb(29, 26, 26);
 }
 
 /* fin pag equipo  */
