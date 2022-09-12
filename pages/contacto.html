@@ -6,51 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudio Testa</title>
     <link rel="shortcut icon" href="../imagenes/logo pag 3 (1).png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
 </head>
-<body class="grillaContacto">
-    <header class="cabeceraContacto">
-        <img class="logoPag" src="../imagenes/logo pag 3 (1).png" alt="Logo de página" width="150px" height="150px" >
+<body class="container-fluid">
+    <section class="row">
+        <section class="col">
+        <header>
+            <nav class="navbar bg-secondary navbarIndex nav justify-content-center">
+                <a class="navbar-brand navbarLogo" href="../index.html">
+                 <img src="../imagenes/logo pag 3 (1).png" alt="Logo" width="100" height="100" class="d-inline-block align-text-center">
+                    ESTUDIO JURIDICO TESTA & ASOC.
+                </a>
+            </nav>
+        </section>
+        </section>
+        <section class="row">  
+        <section class="col">
         <nav>
-            <ul class="cabecera__menu">
-                <li><a class="cabecera__menu--rosa" href="../index.html" >Inicio</a></li>
-                <li><a class="cabecera__menu--rosa" href="./equipo.html" >Equipo</a></li>
-                <li><a class="cabecera__menu--rosa" href="./servicios.html" >Servicios</a></li>
-                <li><a class="cabecera__menu--rosa" href="./noticias.html" >Noticias</a></li>
-                <li><a class="cabecera__menu--rosa" href="./contacto.html" >Contacto</a></li>
+            <ul class="nav justify-content-center navbar bg-secondary">
+                <li class="nav-item"><a class="nav-link active navItem" aria-current="page" href="../index.html" >INICIO</a></li>
+                <li class="nav-item"><a class="nav-link navItem" href="./equipo.html" >EQUIPO</a></li>
+                <li class="nav-item"><a class="nav-link navItem" href="./servicios.html" >SERVICIOS</a></li>
+                <li class="nav-item"><a class="nav-link navItem" href="./noticias.html" >NOTICIAS</a></li>
+                <li class="nav-item"><a class="nav-link navItem" href="./contacto.html" >CONTACTO</a></li>
             </ul>
         </nav>
     </header>
-    <h2 class="tituloContacto">CONTÁCTENOS AHORA</h2>
-    <form class="formularioContacto">
-       <label for="nombre" class="formularioContacto__etiqueta">Ingrese su nombre y apellido</label>
-        <br>
-        <input id="nombre" type="text" class="formularioContacto__ingreso">
-        <br>
-        <label for="contacto" class="formularioContacto__etiqueta">Ingrese su número de teléfono</label>
-        <br>
-        <input id="contacto"  type="text" class="formularioContacto__ingreso">
-        <br>
-        <label for="correo" class="formularioContacto__etiqueta">Ingrese su correo electrónico</label>
-        <br>
-        <input id="correo" type="text" class="formularioContacto__ingreso">
-        <br>
-        <label for="consulta" class="formularioContacto__etiqueta">Ingrese su consulta</label>
-        <br>
-        <textarea class="formularioContacto__ingreso--consulta"></textarea>
-        <br>
-        <input type="submit" value="Enviar consulta" class="formularioContacto__enviar">
+</section> 
+</section> 
+<!-- fin header  -->
+<section class="row">
+<section class="col">
+ <h2 class="tituloContacto">CONTÁCTENOS AHORA</h2>
+</section>
+</section>
 
-    </form>
-    <footer class="footer">
-        <div class="contacto__1">
-            <p> Encontranos en Rivera Indarte 1526 B° Cofico - Córdoba </p>
-        </div>    
-       
-        <div class="contacto__1"> 
-            <p> Contactanos (3492)305008  estudiotesta@hotmail.com </p>
-        </div>    
-    </footer>
+<section class="row">
+<section class="col-sm-8">   
+<form class="formularioContacto">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label formContacto">INGRESE SU NOMBRE Y APELLIDO</label>
+            <input type="text" class="form-control" id="formGroupExampleInput">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label formContacto">INGRESE SU NÚMERO DE TELÉFONO O EMAIL</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2">
+          </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label formContacto">INGRESE SU CONSULTA</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+          </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label formContacto" for="exampleCheck1">Deseo suscribirme al newsletter</label>
+        </div>
+        <button type="submit" class="btn btn-dark button">ENVIAR</button>
+      </form>
+    </section>
+</section>
+
+<div class="row">
+    <div class="col-sm-6">
+    <div class="card card text-bg-dark mb-3 cardContacto card border-light mb-3 card text-center">
+      <div class="card-header">
+        ENCONTRANOS
+      </div>
+      <div class="card-body">
+        <p class="card-text">Rivera Indarte 1526 B° Cofico - Córdoba</p>
+      </div>
+  </div>
+  </div>
+  <div class="col-sm-6">  
+  <div class="card card text-bg-dark mb-3 cardContacto card border-light mb-3 card text-center" >
+      <div class="card-header">
+        CONTACTANOS
+      </div>
+      <div class="card-body">
+        <p class="card-text">(3492)305008 / Estudiotesta@hotmail.com</p>
+  </div>
+  </div>  
+  </div>  
     
+    
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
 </body>
 </html>
