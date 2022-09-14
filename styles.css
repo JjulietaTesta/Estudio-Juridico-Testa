@@ -218,20 +218,11 @@ body {
     color: rgb(241, 241, 248);
     background-image: url(./imagenes/imagen\ equipo\ pag.jpg);
     background-size: cover;
-    width: 1345px;
+    width: 1325px;
     height: 200px;
-    grid-area: header;
 }
 
-.navbarNoticias {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(201, 173, 167);
-    border-radius: 10px;
-    padding: 0%;
-    grid-area:navbar;
-}
+
 
 .cabeceraNoticias__titulo {
    font-family: Aboreto-regular;
@@ -243,7 +234,7 @@ body {
    width: 500px;
    height: 100px;
    justify-content: center;
-   margin-left: 20%;
+   margin-left: 30%;
    border-radius: 5px;
    border: solid;
    border-color: rgb(229, 238, 238);
@@ -313,24 +304,34 @@ aside .asideLink {
     border-color: rgb(201, 173, 167);
 }
 
-.cabeceraNoticias__parrafo .cabeceraNoticias__link {
-    display: flex;
+
+
+
+
+.card-body p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    justify-content: center;
-    width: 100%;
-    color: rgb(34, 34, 59);
-    text-decoration: underline;
-    transition: all 0.5s;
-    cursor: pointer;
 }
 
-.cabeceraNoticias__link:hover {
-    text-decoration: none;
-    background-color: rgb(201, 173, 167);
-    padding: 10px;
-    border-radius: 05px;
-    height: 20px;
+.card-body h5 { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
+
+.card-group {
+    margin-top: 20px;
+}
+
+.imgAbuso { 
+    height: 250px;
+}
+
+.imgEpec {
+    height: 250px;
+}
+
+
 
 
 /* fin pag noticias */
