@@ -208,18 +208,6 @@ body {
 
 /* inicio pag noticias */
 
-.gridNoticias {
-    display: grid;
-    grid-template-areas:
-    "navbar navbar navbar navbar"
-    "header header header header"
-    "title title title empty"
-    "section section aside aside"
-    "section section aside aside"
-    "footer footer footer footer";
-    grid-template-columns: 2fr 2fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
-}
 
 .cabeceraNoticias {
     font-family: Aboreto-regular;
@@ -250,17 +238,16 @@ body {
    font-size: 35px;
    display: flex;
    align-items: center;
-   justify-content: center;
    margin-top: 3%;
-   background-color: rgb(201, 173, 167);
-   width: 50%;
+   background-color: rgb(104, 90, 89);
+   width: 500px;
+   height: 100px;
    justify-content: center;
-   margin-left: 10%;
+   margin-left: 20%;
    border-radius: 5px;
-   grid-area: title;
-   height: 45%;
    border: solid;
-   border-color: aliceblue;
+   border-color: rgb(229, 238, 238);
+   color: aliceblue;
    
 
 }

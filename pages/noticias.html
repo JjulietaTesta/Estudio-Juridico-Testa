@@ -6,23 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudio Testa</title>
     <link rel="shortcut icon" href="../imagenes/logo pag 3 (1).png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
 </head>
-<body class="gridNoticias">
-    <header class="navbarNoticias">
-        <img class="logoPag" src="../imagenes/logo pag 3 (1).png" alt="Logo de página" width="150px" height="150px" >
-         <nav>
-            <ul class="cabecera__menu">
-                <li><a class="cabecera__menu--rosa" href="../index.html" >Inicio</a></li>
-                <li><a class="cabecera__menu--rosa" href="./equipo.html" >Equipo</a></li>
-                <li><a class="cabecera__menu--rosa" href="./servicios.html" >Servicios</a></li>
-                <li><a class="cabecera__menu--rosa" href="./noticias.html" >Noticias</a></li>
-                <li><a class="cabecera__menu--rosa" href="contacto.html" >Contacto</a></li>
+<body class="container-fluid">
+    <!-- inicio header  -->
+    <section class="row">
+    <section class="col">
+    <header>
+        <nav class="navbar bg-secondary navbarIndex nav justify-content-center">
+            <a class="navbar-brand navbarLogo" href="../index.html">
+             <img src="../imagenes/logo pag 3 (1).png" alt="Logo" width="100" height="100" class="d-inline-block align-text-center">
+                ESTUDIO JURIDICO TESTA & ASOC.
+            </a>
+        </nav>
+    </section>
+    </section>
+    <section class="row">  
+    <section class="col">
+        <ul class="nav justify-content-center navbar bg-secondary">
+                <li class="nav-item"><a class="nav-link active navItem"  href="../index.html" >INICIO</a></li>
+                <li class="nav-item"><a class="nav-link navItem" href="./equipo.html" >EQUIPO</a></li>
+                <li class="nav-item"><a class="nav-link navItem" href="./servicios.html" >SERVICIOS</a></li>
+                <li class="nav-item"><a class="nav-link navItem" href="./noticias.html" >NOTICIAS</a></li>
+                <li class="nav-item"><a class="nav-link navItem" href="contacto.html" >CONTACTO</a></li>
             </ul>
         </nav>
     </header>
-    <h1 class="cabeceraNoticias">Actualidad Jurídica</h1>
-    <h2 class="cabeceraNoticias__titulo">Noticias</h2>
+    </section> 
+    </section> 
+<!-- fin header  -->
+
+    <div class="row">
+    <div class="col">
+        <h1 class="cabeceraNoticias">Actualidad Jurídica</h1>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-sm-6">
+        <h2 class="cabeceraNoticias__titulo">Noticias</h2>
+    </div>
+    </div>
     <section class="cabeceraNoticias__parrafo">
             <p class="cabeceraNoticias__parrafo--1"> Por agresiones
                 El TSJ ratificó la decisión de Epec de concretar tres despidos.
@@ -42,17 +67,33 @@
     <aside>
         <p>¿Tenés dudas? ¿Consultas? <a class="asideLink" href="./contacto.html">Contactanos ahora</a></p> 
     </aside>
+
     
-    <footer class="footer">
-        <div class="contacto__1">
-            <p> Encontranos en Rivera Indarte 1526 B° Cofico - Córdoba </p>
-        </div>    
-       
-        <div class="contacto__1"> 
-            <p> Contactanos (3492)305008  estudiotesta@hotmail.com </p>
-        </div>    
-    </footer>
-    
+<!-- comienzo footer  -->
+<div class="row">
+    <div class="col-sm-6">
+    <div class="card card text-bg-dark mb-3 cardContacto card border-light mb-3 card text-center">
+      <div class="card-header">
+        ENCONTRANOS
+      </div>
+      <div class="card-body">
+        <p class="card-text">Rivera Indarte 1526 B° Cofico - Córdoba</p>
+      </div>
+  </div>
+  </div>
+  <div class="col-sm-6">  
+  <div class="card card text-bg-dark mb-3 cardContacto card border-light mb-3 card text-center" >
+      <div class="card-header">
+        CONTACTANOS
+      </div>
+      <div class="card-body">
+        <p class="card-text">(3492)305008 / Estudiotesta@hotmail.com</p>
+  </div>
+  </div>  
+  </div>  
    
+   
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
 </body>
 </html>
