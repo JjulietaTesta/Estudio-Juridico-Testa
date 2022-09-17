@@ -17,7 +17,7 @@ body {
 
 .cardContacto {
     width: 400px;
-    margin-left: 110px;
+    margin-left: 50px;
     margin-top: 50px;
 }
 
@@ -40,8 +40,8 @@ body {
 }
 
 .carouselIndex {
-    width: 1000px;
-    margin-left: 150px;
+    width: 970px;
+    /* margin-left: 50px; */
     
 }
 
@@ -99,7 +99,6 @@ body {
     background-size: cover;
     width: 1325px;
     height: 200px;
-    grid-area: titulo;
     margin-top: 0%;
     border: solid;
     border-color:rgb(99, 91, 90);
@@ -140,6 +139,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
 }
+
 
 .cardEquipo h5 {
     font-size: 25px;
@@ -308,7 +308,7 @@ aside .asideLink {
 
 
 
-.card-body p {
+.textoNoticias {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
@@ -357,187 +357,50 @@ aside .asideLink {
 }
 
 /* MOBILE  */
-@media screen and (max-width: 480px) {
-    .gridNoticias {
-        grid-template-areas:
-        "navbar"
-        "header"
-        /* "aside aside" */
-        "section"
-        "footer";
-        grid-template-columns: repeat(1, 2fr);
-        grid-template-rows: 15% 10% 20% 10%;
-        /* grid-column-gap: 10% */
-    }
-    aside {
-        display: none;
+@media screen and (max-width: 768px) {
+    .carouselIndex {
+        width: 500px;
+        margin-left: 20px;
     }
 
-    .cabeceraNoticias {
-        width: 900px;
-        height: 200px;
-        
-
+    .cardContacto {
+        width: 300px;
+        margin-left: 120px;
+        margin-top: 30px;
     }
 
-    .cabeceraNoticias__titulo {
-       display: none;
-    }
-
-    .cabeceraNoticias__parrafo--1 {
-        padding: 0px;
-        margin-left: 100%;
-
-    }
-    .cabeceraNoticias__parrafo {
-        justify-content: flex-start;
-        margin: 0%;
-       
-    }
-        .footer {
-        flex-direction: column;
-        width: 800px;
-    }
-
-    .navbarNoticias {
-        flex-direction: column;
-        width: 900px;
-        height: 200px;
-    }
-
-    .gridServicios{
-        grid-template-areas: 
-        "cabecera"
-        "titulo"
-        "section"
-        "footer";
-        grid-template-columns: 2fr;
-        grid-template-rows: 2fr, 2fr, 3fr, 1fr
+    .navItem {
+        font-size: 15px;
     }
 
     .cabecera__titulo__servicios {
-        width: 100%;
-        height: 200px;
-    }
-
-    .cabeceraServicios {
-        flex-direction: column;
-    }
-
-    .grillaEquipo {
-    grid-template-areas: 
-    "cabecera"
-    "titulo"
-    "main"
-    "footer";
-    grid-template-columns: 3fr;
-    grid-template-rows: 2fr, 2fr, 3fr, 1fr;
-    }
-
-    .seccionEquipo__img {
-        display: none;
-    }
-
-    .cabeceraEquipo {
-        flex-direction: column;
-    }
-
-    .cabecera__titulo__equipo {
-        width: 1000px;
-    }
-    .seccionEquipo__contenido {
-        margin-left: 15%;
-    }
-    .seccionEquipo__contenido p {
         font-size: 20px;
+        height: 100px;
     }
 
-    .grillaContacto{
-        grid-template-areas: 
-        "cabecera"
-        "titulo"
-        "form"
-        "footer";
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr, 2fr, 3fr, 1fr;
+    .cardServicios { 
+        width: 200px;
+        margin-left: 170px;
+        
     }
 
-    .cabeceraContacto {
-        flex-direction: column;
-}
-
-    .tituloContacto {
-        width: 1000px;
+    .cardServicios p {
+        font-size: 13px;
     }
     
-    .gridIndex {
-        grid-template-areas: 
-        "cabecera"
-        "main"
-        "footer";
-        grid-template-columns: 2fr; 
-        grid-template-rows: 2fr, 3fr, 1fr;
+    .cardServicios h5 {
+        font-size: 13px;
     }
-    .cabeceraIndex {
-        flex-direction: column;
-    }
-    main {
-        width: 500px;
-        height: 600px
-    }
-
-
+    
+    
 
 }
+        
+    
+    
 
 
-/* TABLET  */
 
-@media screen and (max-width: 1024px) {
-    .gridNoticias {
-    grid-template-areas:
-    "navbar navbar"
-    "header header"
-    "title empty"
-    "section aside"
-    "section aside"
-    "footer footer";
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: 2fr, 2fr, 2fr, 3fr, 3fr, 1fr;
-    }
-
-    aside{
-    height: 35%;
-    width: 30%;
-    margin-left: 30%;
-    }
-
-    .cabeceraEquipo{
-        display: flex;
-        flex-direction: column;
-    }
-    .grillaContacto{
-        grid-template-areas: 
-        "cabecera cabecera"
-        "titulo titulo"
-        "form form"
-        "footer footer";
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: 2fr, 2fr, 3fr, 1fr;
-    }
-    .cabeceraContacto {
-        flex-direction: column;
-    }
-
-    main {
-        width: 1000px;
-        height: 600px
-    }
-
-    .cabeceraIndex {
-        flex-direction: column;
-    }
-}
 
 
 
