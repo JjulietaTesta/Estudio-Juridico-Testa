@@ -10,22 +10,38 @@ body {
 
 .navItem {
     font-size: 30px;
-    color: rgb(255, 247, 253);
+    color: rgb(27, 26, 27);
     padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.navItem:hover {
+    background-color: rgb(75, 68, 73);
+    border-radius: 05px;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+    color: beige;
+    
 }
 
 .cardContacto {
     width: 400px;
     margin-left: 50px;
     margin-top: 50px;
+    cursor: pointer;
 }
+
+
 
 .navbarLogo{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
 }
+
+
 
 .logoPag {
     display: flex;
@@ -69,7 +85,7 @@ body {
 .cardServicios { 
     width: 300px;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 100px;
     border: solid;
     border-color: black;
 }
@@ -82,6 +98,13 @@ body {
 .cardServicios h5 {
     background-color: black;
     color: beige;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.cardServicios h5:hover{
+    background-color: rgb(78, 74, 74);
+    border-radius: 10px;
 }
 
 /* fin pag servicios */
