@@ -1,37 +1,75 @@
-* {
-  margin: 0%;
-  padding: 0%;
+.card {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 100px;
+  border: solid;
+  border-color: beige;
 }
-
-body {
-  background-color: rgb(46, 42, 45);
+.card h5 {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-/* inicio pag index  */
-.navItem {
-  font-size: 30px;
-  color: rgb(27, 26, 27);
-  padding: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+.card h5:hover {
+  background-color: rgb(78, 74, 74);
+  border-radius: 10px;
+  transition: all 0.5s;
   cursor: pointer;
+}
+.card h5 p {
+  background-color: rgb(22, 19, 19);
+  color: beige;
   transition: all 0.5s;
 }
 
-.navItem:hover {
-  background-color: rgb(75, 68, 73);
-  border-radius: 5px;
-  padding: 10px;
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(239, 239, 245);
+  background-image: url(../imagenes/top-view-over-career-guidance-items-for-judges.jpg);
+  background-size: cover;
+  height: 150px;
+  text-align: center;
   border: solid;
-  border-color: black;
-  color: beige;
+  border-color: rgb(99, 91, 90);
 }
 
 .cardContacto {
   width: 400px;
   margin-left: 50px;
   margin-top: 50px;
-  cursor: pointer;
+  border-color: beige;
 }
+
+.navItem {
+  font-size: 30px;
+  color: rgb(68, 67, 112);
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.navItem:hover {
+  background-color: rgb(75, 68, 73);
+  border-radius: 5px;
+  padding: 10px;
+  border: solid;
+  border-color: rgb(68, 67, 112);
+  color: rgb(19, 19, 18);
+}/*# sourceMappingURL=styles.css.map */
+
+body {
+  background-color: rgb(46, 42, 45);
+}
+
+
+.cardContacto {
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 50px;
+  }
 
 .navbarLogo {
   font-size: 20px;
@@ -56,46 +94,6 @@ body {
 
 /* fin index.html */
 /* inicio pag servicios */
- .cabecera__titulo__servicios {
-  font-family: Aboreto-regular;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(239, 239, 245);
-  background-image: url(./imagenes/top-view-over-career-guidance-items-for-judges.jpg);
-  background-size: cover;
-  height: 150px;
-  text-align: center;
-  border: solid;
-  border-color: rgb(99, 91, 90);
- }
-
-.cardServicios {
-  width: 300px;
-  margin-top: 20px;
-  margin-left: 100px;
-  border: solid;
-  border-color: black;
-}
-
-.cardServicios p {
-  font-size: 17px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.cardServicios h5 {
-  background-color: black;
-  color: beige;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.cardServicios h5:hover {
-  background-color: rgb(78, 74, 74);
-  border-radius: 10px;
-} 
-
 /* fin pag servicios */
 /* inicio pag equipo  */
 .cabecera__titulo__equipo {
@@ -105,7 +103,7 @@ body {
   justify-content: center;
   align-items: center;
   color: rgb(241, 241, 248);
-  background-image: url(./imagenes/imagen\ equipo\ pag.jpg);
+  background-image: url(../imagenes/imagen\ equipo\ pag.jpg);
   background-size: cover;
   width: 1325px;
   height: 200px;
@@ -318,21 +316,7 @@ aside .asideLink {
 
 /* fin pag noticias */
 /* pie de pag */
-.footer {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 40%;
-  flex-wrap: wrap;
-  font-family: Aboreto-regular;
-  font-size: 15px;
-  margin: auto;
-  border-radius: 5%;
-  text-align: center;
-  align-items: center;
-  margin-top: 10%;
-  background-color: rgb(201, 173, 167);
-}
+
 
 /* MOBILE  */
 @media screen and (max-width: 768px) {

@@ -1,24 +1,28 @@
-.cardServicios {
+.card {
     width: 300px;
     margin-top: 20px;
     margin-left: 100px;
     border: solid;
-    border-color: black;
+    border-color:$colorCardServicios;
     h5 {
     font-size: 17px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;   
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    &:hover { background-color: rgb(78, 74, 74);
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;   
     }
     p { 
     background-color: rgb(22, 19, 19);
-    color: beige;
+    color: $colorCardServicios;
     transition: all 0.5s;
-    cursor: pointer;    
     }
   }
+}
   
   
-  .cabecera__titulo__servicios {
-    font-family: Aboreto-regular;
+  h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -31,8 +35,31 @@
     border: solid;
     border-color: rgb(99, 91, 90);
    }
+
+   .cardContacto {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-color: $colorCardServicios;
+    }
+
+    .navItem {
+      font-size: 30px;
+      color: $colorNavItem;
+      padding: 20px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      cursor: pointer;
+      transition: all 0.5s;
+      &:hover {
+      background-color: rgb(75, 68, 73);
+      border-radius: 5px;
+      padding: 10px;
+      border: solid;
+      border-color: $colorNavItem;
+      color: rgb(19, 19, 18);
+
+      }
+    }
+    
+    
   
-  .cardServicios h5:hover {
-    background-color: rgb(78, 74, 74);
-    border-radius: 10px;
-  } 
