@@ -56,7 +56,7 @@ body {
 }
 
 .carouselIndex {
-    width: 970px;
+    width: 100%;
     /* margin-left: 50px; */
     
 }
@@ -382,8 +382,7 @@ aside .asideLink {
 /* MOBILE  */
 @media screen and (max-width: 768px) {
     .carouselIndex {
-        width: 500px;
-        margin-left: 20px;
+        width: 100%;
     }
 
     .cardContacto {
@@ -415,8 +414,13 @@ aside .asideLink {
         font-size: 13px;
     }
     
-    
+}
 
+@media screen and (max-width: 992px) {
+    .navItem {
+        font-size: 15px;
+    }
+    
 }
         
     
