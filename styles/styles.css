@@ -3,7 +3,7 @@
   margin-top: 20px;
   margin-left: 100px;
   border: solid;
-  border-color: beige;
+  border-color: rgb(197, 187, 187);
 }
 .card h5 {
   font-size: 17px;
@@ -17,7 +17,6 @@
 }
 .card h5 p {
   background-color: rgb(22, 19, 19);
-  color: beige;
   transition: all 0.5s;
 }
 
@@ -40,314 +39,21 @@ h1 {
   width: 400px;
   margin-left: 50px;
   margin-top: 50px;
-  border-color: beige;
 }
 
 .navItem {
   font-size: 30px;
-  color: rgb(68, 67, 112);
+  color: rgb(71, 34, 57);
   padding: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   cursor: pointer;
   transition: all 0.5s;
 }
 .navItem:hover {
-  background-color: rgb(75, 68, 73);
+  background-color: rgb(69, 66, 80);
   border-radius: 5px;
   padding: 10px;
   border: solid;
-  border-color: rgb(68, 67, 112);
-  color: rgb(19, 19, 18);
-}/*# sourceMappingURL=styles.css.map */
-
-body {
-  background-color: rgb(46, 42, 45);
-}
-
-
-.cardContacto {
-  width: 400px;
-  margin-left: 50px;
-  margin-top: 50px;
-  }
-
-.navbarLogo {
-  font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.logoPag {
-  display: flex;
-  width: 200px;
-  height: 200px;
-}
-
-.carousel-caption {
-  color: black;
-  font-size: 30px;
-}
-
-.carouselIndex {
-  width: 970px;
-  /* margin-left: 50px; */
-}
-
-/* fin index.html */
-/* inicio pag servicios */
-/* fin pag servicios */
-/* inicio pag equipo  */
-.cabecera__titulo__equipo {
-  font-family: Aboreto-regular;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(241, 241, 248);
-  background-image: url(../imagenes/imagen\ equipo\ pag.jpg);
-  background-size: cover;
-  width: 1325px;
-  height: 200px;
-  margin-top: 0%;
-  border: solid;
-  border-color: rgb(99, 91, 90);
-}
-
-.seccionEquipo {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.seccionEquipo__img {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.seccionEquipo__img img {
-  width: 150%;
-  height: 150%;
-  align-items: center;
-}
-
-.cardEquipo {
-  width: 420px;
-  height: 220px;
-  background-color: rgb(80, 77, 74);
-  padding: 20px;
-  border-color: aliceblue;
-  margin-top: 20px;
-  margin-left: 60px;
-}
-
-.cardEquipo p {
-  font-size: 15px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: aliceblue;
-}
-
-.cardEquipo h5 {
-  font-size: 25px;
-  background-color: rgb(61, 60, 56);
-  color: rgb(29, 26, 26);
-}
-
-/* fin pag equipo  */
-/* inicio pag contacto  */
-.cabeceraContacto {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(201, 173, 167);
-  border-radius: 10px;
-  padding: 0%;
-  grid-area: cabecera;
-}
-
-.tituloContacto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(2, 2, 10);
-  font-family: Aboreto-regular;
-  font-size: 50px;
-  background-image: url(./imagenes/imagen\ pag\ contacto.jpg);
-  background-size: 500px;
-  width: 1324px;
-  height: 150px;
-}
-
-.formContacto {
-  color: aliceblue;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 20px;
-}
-
-.formularioContacto {
-  margin-left: 400px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.button {
-  border: solid;
-  border-color: aliceblue;
-  padding: 15px;
-  width: 200px;
-  font-size: 20px;
-}
-
-/* fin pag contacto  */
-/* inicio pag noticias */
-.cabeceraNoticias {
-  font-family: Aboreto-regular;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(241, 241, 248);
-  background-image: url(./imagenes/imagen\ equipo\ pag.jpg);
-  background-size: cover;
-  width: 1325px;
-  height: 200px;
-}
-
-.cabeceraNoticias__titulo {
-  font-family: Aboreto-regular;
-  font-size: 35px;
-  display: flex;
-  align-items: center;
-  margin-top: 3%;
-  background-color: rgb(104, 90, 89);
-  width: 500px;
-  height: 100px;
-  justify-content: center;
-  margin-left: 30%;
-  border-radius: 5px;
-  border: solid;
-  border-color: rgb(229, 238, 238);
-  color: aliceblue;
-}
-
-.cabeceraNoticias__parrafo {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  justify-content: space-around;
-  /* border: solid; */
-  grid-area: section;
-  align-items: center;
-  margin: 4%;
-}
-
-aside {
-  grid-area: aside;
-  height: 70%;
-  width: 40%;
-  border: solid;
-  border-color: aliceblue;
-  margin-top: 35%;
-  display: flex;
-  align-items: center;
-  background-color: rgb(201, 173, 167);
-  border-radius: 10px;
-  margin-left: 40%;
-}
-
-aside p {
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  font-family: Aboreto-regular;
-  text-align: center;
-}
-
-aside .asideLink {
-  text-align: center;
-  width: 100%;
-  color: rgb(34, 34, 59);
-  text-decoration: underline;
-}
-
-.cabecera {
-  grid-area: navbar;
-}
-
-.cabeceraNoticias__parrafo--1 {
-  display: flex;
-  width: 50%;
-  height: 50%;
-  flex-wrap: wrap;
-  margin-top: 5%;
-  font-size: 20px;
-  font-family: Aboreto-regular;
-  text-align: center;
-  background-color: rgb(241, 241, 248);
-  padding: 5px;
-  border: solid;
-  border-color: rgb(201, 173, 167);
-}
-
-.textoNoticias {
-  font-size: 20px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-
-.card-body h5 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-
-.card-group {
-  margin-top: 20px;
-}
-
-.imgAbuso {
-  height: 250px;
-}
-
-.imgEpec {
-  height: 250px;
-}
-
-/* fin pag noticias */
-/* pie de pag */
-
-
-/* MOBILE  */
-@media screen and (max-width: 768px) {
-  .carouselIndex {
-    width: 500px;
-    margin-left: 20px;
-  }
-  .cardContacto {
-    width: 300px;
-    margin-left: 120px;
-    margin-top: 30px;
-  }
-  .navItem {
-    font-size: 15px;
-  }
-  .cabecera__titulo__servicios {
-    font-size: 20px;
-    height: 100px;
-  }
-  .cardServicios {
-    width: 200px;
-    margin-left: 170px;
-  }
-  .cardServicios p {
-    font-size: 13px;
-  }
-  .cardServicios h5 {
-    font-size: 13px;
-  }
-}
-@font-face {
-  font-family: Aboreto-Regular;
-  src: url("./fonts/Aboreto-Regular.ttf");
+  border-color: rgb(22, 8, 20);
+  color: rgb(71, 34, 57);
 }/*# sourceMappingURL=styles.css.map */

@@ -3,7 +3,7 @@
     margin-top: 20px;
     margin-left: 100px;
     border: solid;
-    border-color:$colorCardServicios;
+    border-color: map-get($servicios, backgroundColorServicios);
     h5 {
     font-size: 17px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -14,7 +14,7 @@
     }
     p { 
     background-color: rgb(22, 19, 19);
-    color: $colorCardServicios;
+    // color:
     transition: all 0.5s;
     }
   }
@@ -40,23 +40,23 @@
     width: 400px;
     margin-left: 50px;
     margin-top: 50px;
-    border-color: $colorCardServicios;
+    // border-color: ;
     }
 
     .navItem {
       font-size: 30px;
-      color: $colorNavItem;
+      color: map-get($navbar, textNavItem);
       padding: 20px;
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       cursor: pointer;
       transition: all 0.5s;
       &:hover {
-      background-color: rgb(75, 68, 73);
+      background-color: map-get($navbar, backgroundNavItem);
       border-radius: 5px;
       padding: 10px;
       border: solid;
-      border-color: $colorNavItem;
-      color: rgb(19, 19, 18);
+      border-color: map-get($navbar, colorNavItem);
+      color: map-get($navbar, textNavItem);
 
       }
     }
