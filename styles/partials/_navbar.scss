@@ -1,0 +1,19 @@
+.navServicios {
+    @extend %navbar;
+    color: map-get($navbar, textNavItem);
+    &:hover {
+        background-color: map-get($navbar, backgroundNavItem);
+        border-color: map-get($navbar, colorNavItem);
+        color: map-get($navbar, textNavItem);
+    }
+}
+
+.navIndex {
+    @extend %navbar;
+    color:rgb(48, 66, 82);
+    &:hover {
+        background-color:rgb(92, 84, 110);
+        border-color:rgb(14, 13, 13);
+        color:rgb(199, 193, 184);
+    }
+}

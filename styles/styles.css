@@ -1,3 +1,16 @@
+.navIndex, .navServicios {
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.navIndex:hover, .navServicios:hover {
+  border-radius: 5px;
+  padding: 10px;
+  border: solid;
+}
+
 .card {
   width: 300px;
   margin-top: 20px;
@@ -56,4 +69,22 @@ h1 {
   border: solid;
   border-color: rgb(22, 8, 20);
   color: rgb(71, 34, 57);
+}
+
+.navServicios {
+  color: rgb(71, 34, 57);
+}
+.navServicios:hover {
+  background-color: rgb(69, 66, 80);
+  border-color: rgb(22, 8, 20);
+  color: rgb(71, 34, 57);
+}
+
+.navIndex {
+  color: rgb(48, 66, 82);
+}
+.navIndex:hover {
+  background-color: rgb(92, 84, 110);
+  border-color: rgb(14, 13, 13);
+  color: rgb(199, 193, 184);
 }/*# sourceMappingURL=styles.css.map */
