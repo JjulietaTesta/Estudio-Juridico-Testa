@@ -87,4 +87,38 @@ h1 {
   background-color: rgb(92, 84, 110);
   border-color: rgb(14, 13, 13);
   color: rgb(199, 193, 184);
+}
+
+.navContacto {
+  color: rgb(39, 179, 125);
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.navContacto:hover {
+  border-radius: 5px;
+  padding: 10px;
+  border: solid;
+  border-color: black;
+  background-color: rgb(28, 156, 114);
+  color: rgb(25, 114, 25);
+}
+
+.navContacto1 {
+  color: rgb(39, 179, 125);
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.navContacto1:hover {
+  border-radius: 5px;
+  padding: 10px;
+  border: solid;
+  border-color: black;
+  background-color: rgb(51, 136, 185);
+  color: rgb(25, 114, 25);
 }/*# sourceMappingURL=styles.css.map */
