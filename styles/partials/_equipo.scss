@@ -1,0 +1,58 @@
+.cabecera__titulo__equipo {
+    font-family: Aboreto-regular;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(241, 241, 248);
+    background-image: url(../imagenes/imagen\ equipo\ pag.jpg);
+    background-size: cover;
+    width: 1325px;
+    height: 200px;
+    margin-top: 0%;
+    border: solid;
+    border-color: rgb(99, 91, 90);
+  }
+  
+  .seccionEquipo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    img {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    img {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    }
+}
+
+  
+   .cardEquipo {
+    width: 420px;
+    height: 220px;
+    background-color: rgb(80, 77, 74);
+    padding: 20px;
+    border-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 60px;
+    p {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: aliceblue;
+    }
+    h5 {
+    font-size: 25px;
+    background-color: rgb(61, 60, 56);
+    color: rgb(29, 26, 26);
+    }
+  }
+  
+  
+  
+ 
