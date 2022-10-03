@@ -274,18 +274,18 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(2, 2, 10);
-  font-family: Aboreto-regular;
+  color: rgb(13, 13, 14);
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  background-image: url(./imagenes/imagen\ pag\ contacto.jpg);
+  background-image: url(../imagenes/imagen\ pag\ contacto.jpg);
   background-size: 500px;
   width: 1324px;
   height: 150px;
 }
 
 .formContacto {
-  color: aliceblue;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(19, 51, 78);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
 }
 
@@ -302,6 +302,4 @@ h1 {
   padding: 15px;
   width: 200px;
   font-size: 20px;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
