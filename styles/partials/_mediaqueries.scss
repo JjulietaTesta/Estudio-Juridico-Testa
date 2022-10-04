@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+    .carouselIndex {
+      width: 100%;
+    }
+    
+    .cardContactoIndex {
+        margin-left: 20%;
+    }
+    .navIndex {
+      font-size: 12px;
+    }
+    .cabecera__titulo__servicios {
+      font-size: 20px;
+      height: 100px;
+    }
+    .cardServicios {
+      width: 200px;
+      margin-left: 170px;
+    }
+    .cardServicios p {
+      font-size: 13px;
+    }
+    .cardServicios h5 {
+      font-size: 13px;
+    }
+
+    .tituloContacto {
+        font-size: 20px;
+        height: 300%;
+        width: 100%;
+    }
+
+    .navContacto1 {
+        font-size: 12px;
+    }
+    
+    .navContacto {
+        font-size: 12px;
+    }
+
+    .cardContactoC { 
+       
+        margin-right: 30%;
+    }
+
+    .cardC {
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .navIndex {
+        font-size: 15px;
+    }
+
+    .cardServicios { 
+        margin-left: 30px;
+
+    }
+
+    .cardContacto {
+        width: 350px;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+
+    .tituloContacto {
+        font-size: 25px;
+        height: 300%;
+        width: 100%;
+    }
+
+    .navContacto1 {
+        font-size: 20px;
+    }
+    
+    .navContacto {
+        font-size: 20px;
+    }
+
+    .cardContactoC {
+        margin-right: 15%;
+       
+    }
+
+    .cardC {
+        width: 100%;
+    }
+
+}
