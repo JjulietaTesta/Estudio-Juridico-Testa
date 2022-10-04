@@ -11,35 +11,34 @@
   border: solid;
 }
 
-.card {
+.cardServicios {
   width: 300px;
   margin-top: 20px;
   margin-left: 100px;
   border: solid;
   border-color: rgb(197, 187, 187);
 }
-.card h5 {
+.cardServicios h5 {
   font-size: 17px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.card h5:hover {
+.cardServicios h5:hover {
   background-color: rgb(78, 74, 74);
   border-radius: 10px;
   transition: all 0.5s;
   cursor: pointer;
 }
-.card h5 p {
-  background-color: rgb(22, 19, 19);
-  transition: all 0.5s;
+.cardServicios p {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 50px;
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(239, 239, 245);
+  color: rgb(62, 109, 121);
   background-image: url(../imagenes/top-view-over-career-guidance-items-for-judges.jpg);
   background-size: cover;
   height: 150px;
@@ -412,6 +411,19 @@ body {
   .cardContactoE {
     margin-left: 15%;
   }
+  .title {
+    font-size: 15px;
+    height: 100px;
+  }
+  .servicios {
+    margin-left: 20%;
+  }
+  .cardServicios {
+    width: 250px;
+  }
+  .cardContactoS {
+    margin-left: 10%;
+  }
 }
 @media screen and (max-width: 992px) {
   .navIndex {
@@ -463,5 +475,9 @@ body {
   }
   .cardEquipo h5 {
     font-size: 20px;
+  }
+  .title {
+    font-size: 20px;
+    height: 100px;
   }
 }/*# sourceMappingURL=styles.css.map */
