@@ -46,7 +46,40 @@
     .cardC {
         width: 100%;
     }
-  }
+
+    .cabecera__titulo__equipo {
+        width: 100%;
+        font-size: 20px;
+        height: 100px;
+    }
+
+    .seccionEquipo__img { 
+        display: none;
+        img {
+        display: none;
+    }
+    }
+
+    .cardEquipo {
+        width: 300px;
+        height: 200px;
+        p {
+            font-size: 10px;
+        }
+        h5 {
+            font-size: 20px;
+        }
+    }
+
+    .Equipo {
+        margin-left: 20%;
+    }
+
+    .cardContactoE {
+        margin-left: 15%;
+    }
+}
+
 
   @media screen and (max-width: 992px) {
     .navIndex {
@@ -87,4 +120,28 @@
         width: 100%;
     }
 
+    .cabecera__titulo__equipo {
+        width: 100%;
+        font-size: 20px;
+        height: 100px;
+    }
+
+    .seccionEquipo__img { 
+        margin-left: 0%;
+        img {
+            width: 350px;
+        }
+}
+
+    .cardEquipo {
+        width: 330px;
+        height: 200px;
+        margin-left: 0%;
+        p {
+            font-size: 12px;
+        }
+        h5 { 
+            font-size: 20px;
+        }
+}
 }

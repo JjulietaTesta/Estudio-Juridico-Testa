@@ -124,15 +124,15 @@ h1 {
 }
 
 .cabecera__titulo__equipo {
-  font-family: Aboreto-regular;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(241, 241, 248);
+  color: rgb(204, 190, 192);
   background-image: url(../imagenes/imagen\ equipo\ pag.jpg);
   background-size: cover;
-  width: 1325px;
+  width: 100%;
   height: 200px;
   margin-top: 0%;
   border: solid;
@@ -144,13 +144,15 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-.seccionEquipo img {
+
+.seccionEquipo__img {
   width: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 0%;
 }
-.seccionEquipo img img {
+.seccionEquipo__img img {
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -164,7 +166,7 @@ h1 {
   padding: 20px;
   border-color: aliceblue;
   margin-top: 20px;
-  margin-left: 60px;
+  margin-left: 5%;
 }
 .cardEquipo p {
   font-size: 15px;
@@ -175,6 +177,11 @@ h1 {
   font-size: 25px;
   background-color: rgb(61, 60, 56);
   color: rgb(29, 26, 26);
+}
+
+.cardContactoE {
+  margin-left: 3%;
+  width: 100%;
 }
 
 .cabeceraNoticias {
@@ -378,6 +385,33 @@ body {
   .cardC {
     width: 100%;
   }
+  .cabecera__titulo__equipo {
+    width: 100%;
+    font-size: 20px;
+    height: 100px;
+  }
+  .seccionEquipo__img {
+    display: none;
+  }
+  .seccionEquipo__img img {
+    display: none;
+  }
+  .cardEquipo {
+    width: 300px;
+    height: 200px;
+  }
+  .cardEquipo p {
+    font-size: 10px;
+  }
+  .cardEquipo h5 {
+    font-size: 20px;
+  }
+  .Equipo {
+    margin-left: 20%;
+  }
+  .cardContactoE {
+    margin-left: 15%;
+  }
 }
 @media screen and (max-width: 992px) {
   .navIndex {
@@ -407,5 +441,27 @@ body {
   }
   .cardC {
     width: 100%;
+  }
+  .cabecera__titulo__equipo {
+    width: 100%;
+    font-size: 20px;
+    height: 100px;
+  }
+  .seccionEquipo__img {
+    margin-left: 0%;
+  }
+  .seccionEquipo__img img {
+    width: 350px;
+  }
+  .cardEquipo {
+    width: 330px;
+    height: 200px;
+    margin-left: 0%;
+  }
+  .cardEquipo p {
+    font-size: 12px;
+  }
+  .cardEquipo h5 {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */
