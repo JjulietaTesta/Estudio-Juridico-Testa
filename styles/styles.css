@@ -184,20 +184,20 @@
 }
 
 .cabeceraNoticias {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(241, 241, 245);
   background-image: url(../imagenes/imagen\ equipo\ pag.jpg);
   background-size: cover;
-  width: 1325px;
-  height: 150px;
+  width: 100%;
+  height: 120px;
 }
 
 .cabeceraNoticias__titulo {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 35px;
   display: flex;
   align-items: center;
@@ -206,21 +206,11 @@
   width: 500px;
   height: 100px;
   justify-content: center;
-  margin-left: 30%;
+  margin-left: 25%;
   border-radius: 5px;
   border: solid;
   border-color: rgb(229, 238, 238);
   color: aliceblue;
-}
-
-.parrafo {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  justify-content: space-around;
-  align-items: center;
-  margin: 4%;
 }
 
 .cabeceraNoticias__parrafo--1 {
@@ -251,7 +241,7 @@
 
 .card-group {
   margin-top: 20px;
-  margin-right: 10%;
+  margin-right: 0%;
 }
 
 .imgAbuso {
@@ -264,6 +254,10 @@
 
 .imgMalaPraxis {
   height: 250px;
+}
+
+.cardContactoN {
+  margin-top: 10%;
 }
 
 .cabeceraContacto {
@@ -424,6 +418,35 @@ body {
   .cardContactoS {
     margin-left: 10%;
   }
+  .cabeceraNoticias {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .imgAbuso {
+    height: 150px;
+  }
+  .imgEpec {
+    height: 150px;
+  }
+  .imgMalaPraxis {
+    height: 150px;
+  }
+  .textoNoticias {
+    font-size: 5px;
+  }
+  .card-body h5 {
+    font-size: 15px;
+  }
+  .cabeceraNoticias__titulo {
+    margin-left: 10%;
+    height: 50px;
+    width: 65%;
+  }
+  .noticias {
+    margin-left: 0%;
+  }
 }
 @media screen and (max-width: 992px) {
   .navIndex {
@@ -479,5 +502,37 @@ body {
   .title {
     font-size: 20px;
     height: 100px;
+  }
+  .cabeceraNoticias {
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cabeceraNoticias__titulo {
+    margin-left: 15%;
+    height: 70px;
+  }
+  .textoNoticias {
+    font-size: 15px;
+  }
+  .card-body h5 {
+    font-size: 15px;
+  }
+  .card-group {
+    margin-right: 0%;
+  }
+  .imgAbuso {
+    height: 200px;
+  }
+  .imgEpec {
+    height: 200px;
+  }
+  .imgMalaPraxis {
+    height: 200px;
+  }
+  .cardContactoN {
+    width: 100%;
+    margin-top: 10%;
   }
 }/*# sourceMappingURL=styles.css.map */

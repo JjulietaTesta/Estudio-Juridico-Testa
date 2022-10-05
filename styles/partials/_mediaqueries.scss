@@ -96,7 +96,47 @@
     .cardContactoS {
         margin-left: 10%;
     }
+
+    .cabeceraNoticias {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.imgAbuso {
+    height: 150px;
+  }
+  
+  .imgEpec {
+    height: 150px;
+  }
+
+  .imgMalaPraxis { 
+    height: 150px;
+  }
+  
+  .textoNoticias {
+    font-size: 5px;
+}
+
+.card-body h5 {
+    font-size: 15px;
+}
+
+.cabeceraNoticias__titulo { 
+    margin-left: 10%;
+    height: 50px;
+    width: 65%;
+}
+
+.noticias {
+    margin-left: 0%;
+}
+
+
+
+}
+
 
 
   @media screen and (max-width: 992px) {
@@ -149,7 +189,7 @@
         img {
             width: 350px;
         }
-}
+    }
 
     .cardEquipo {
         width: 330px;
@@ -161,10 +201,48 @@
         h5 { 
             font-size: 20px;
         }
-}
+    }
 
     .title {
     font-size: 20px;
     height: 100px;
+    }
+
+    .cabeceraNoticias {
+        width: 100%;
+        height: 100px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cabeceraNoticias__titulo { 
+        margin-left: 15%;
+        height: 70px;
+    }
+    .textoNoticias {
+    font-size: 15px;
+    }
+    .card-body h5 {
+    font-size: 15px;   
+    }
+    .card-group {
+    margin-right: 0%;
+    }
+
+    .imgAbuso {
+    height: 200px;
+    }
+  
+    .imgEpec {
+    height: 200px;
+    }
+
+    .imgMalaPraxis { 
+    height:200px;
+    }
+
+    .cardContactoN {
+        width: 100%;
+        margin-top: 10%;
     }
 }
