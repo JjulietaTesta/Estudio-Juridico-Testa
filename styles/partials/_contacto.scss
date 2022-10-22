@@ -1,11 +1,13 @@
-.cabeceraContacto {
+.tituloContacto {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(201, 173, 167);
-    border-radius: 10px;
     padding: 0%;
-    grid-area: cabecera;
+    height: 200px;
+    width: 100%;
+    border: solid;
+    border-color: rgb(99, 91, 90);
   }
   
   .tituloContacto {
@@ -14,7 +16,7 @@
     align-items: center;
     color: rgb(13, 13, 14);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     background-image: url(../imagenes/imagen\ pag\ contacto.jpg);
     background-size: 500px;
     width: 100%;
@@ -22,16 +24,16 @@
   }
   
   .formContacto {
-    color: rgb(134, 157, 175);
+    color: rgb(139, 145, 150);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
   }
   
   .formularioContacto {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 50px;
   }
   
